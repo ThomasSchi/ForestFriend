@@ -7,6 +7,7 @@ import { Page1Component } from './page1/page1.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { PflanzenComponent } from './pflanzen/pflanzen.component';
 import { TipsTricksComponent } from './tips-tricks/tips-tricks.component';
+import { AboutUSComponent } from './about-us/about-us.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { TipsTricksComponent } from './tips-tricks/tips-tricks.component';
     Page1Component,
     HomepageComponent,
     PflanzenComponent,
-    TipsTricksComponent
+    TipsTricksComponent,
+    AboutUSComponent
   ],
   imports: [
     BrowserModule,
