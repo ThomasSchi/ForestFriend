@@ -3,8 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { Page1Component } from './page1/page1.component';
-import { HomepageComponent } from './homepage/homepage.component';
+// import { Page1Component } from './page1/page1.component';
+//import { HomepageComponent } from './homepage/homepage.component';
 import { PflanzenComponent } from './pflanzen/pflanzen.component';
 import { TipsTricksComponent } from './tips-tricks/tips-tricks.component';
 import { AboutUSComponent } from './about-us/about-us.component';
@@ -12,8 +12,8 @@ import { AboutUSComponent } from './about-us/about-us.component';
 @NgModule({
   declarations: [
     AppComponent,
-    Page1Component,
-    HomepageComponent,
+//   Page1Component,
+//    HomepageComponent,
     PflanzenComponent,
     TipsTricksComponent,
     AboutUSComponent
