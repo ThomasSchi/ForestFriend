@@ -1,1 +1,36 @@
-<p>homepage works!</p>
+<div class="homepage">
+    <link rel="stylesheet" href="homepage.component.css">
+    <header>
+      <h1>Mein Unternehmen</h1>
+      <nav>
+        <a routerLink="/">Home</a>
+        <a routerLink="/about">Über uns</a>
+        <a routerLink="/services">Dienstleistungen</a>
+        <a routerLink="/portfolio">Portfolio</a>
+        <a routerLink="/contact">Kontakt</a>
+      </nav>
+    </header>
+    <section class="hero">
+      <h2>Willkommen auf unserer Homepage!</h2>
+      <p>Erfahren Sie mehr über unser Unternehmen und die Dienstleistungen, die wir anbieten.</p>
+      <button routerLink="/about">Erfahren Sie mehr</button>
+    </section>
+    <section class="services">
+      <h2>Unsere Dienstleistungen</h2>
+      <div class="service" *ngFor="let service of services">
+        <h3>{{ service.name }}</h3>
+        <p>{{ service.description }}</p>
+      </div>
+    </section>
+    <section class="portfolio">
+      <h2>Unser Portfolio</h2>
+      <div class="project" *ngFor="let project of projects">
+        <img [src]="project.image" alt="{{ project.name }}">
+        <h3>{{ project.name }}</h3>
+        <p>{{ project.description }}</p>
+      </div>
+    </section>
+    <footer>
+      <p>Copyright © {{ currentYear }} Mein Unternehmen</p>
+    </footer>
+  </div>
