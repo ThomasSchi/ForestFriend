@@ -13,18 +13,18 @@ plants: any[]=[
     name: "Pfingstrose",
     family: "Päoniengewächse",
     species: "ca. 30",
-    usage: "Zierfplanze in Parks oder Gärten",
-    poison: "Einige Arten"
+    usage: "Zierfpflanze in Parks oder Gärten",
+    poison: "Einige Arten sind giftig"
   },
   {
-    name: "Pfingstrose",
-    family: "Päoniengewächse",
-    species: "ca. 30",
-    usage: "Zierfplanze in Parks oder Gärten",
-    poison: "Einige Arten"
+    name: "Goldfruchtpalme",
+    family: "Palmen",
+    species: "divers",
+    usage: "Freilandpflanze, tropische Gärten",
+    poison: "Nicht giftig"
   },
   {
-    name: "Pfingstrose",
+    name: "Löwenzahn",
     family: "Päoniengewächse",
     species: "ca. 30",
     usage: "Zierfplanze in Parks oder Gärten",
