@@ -7,4 +7,29 @@ import { Component } from '@angular/core';
 })
 export class PflanzenComponent {
 
+
+plants: any[]=[
+  {
+    name: "Pfingstrose",
+    family: "Päoniengewächse",
+    species: "ca. 30",
+    usage: "Zierfplanze in Parks oder Gärten",
+    poison: "Einige Arten"
+  },
+  {
+    name: "Pfingstrose",
+    family: "Päoniengewächse",
+    species: "ca. 30",
+    usage: "Zierfplanze in Parks oder Gärten",
+    poison: "Einige Arten"
+  },
+  {
+    name: "Pfingstrose",
+    family: "Päoniengewächse",
+    species: "ca. 30",
+    usage: "Zierfplanze in Parks oder Gärten",
+    poison: "Einige Arten"
+  },
+];
+
 }

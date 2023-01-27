@@ -1,1 +1,9 @@
-<p>pflanzen works!</p>
+<h1> Unsere beliebtesten Pflanzen </h1>
+
+<div *ngFor="let plant of plants">
+    <p>{{plant.name}}</p>
+    <p>{{plant.family}}</p>
+    <p>{{plant.species}}</p>
+    <p>{{plant.usage}}</p>
+    <p>{{plant.poison}}</p>
+</div>
