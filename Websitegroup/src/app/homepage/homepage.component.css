@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header */
+  header {
+    background-color: #3f51b5;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header nav {
+    display: flex;
+  }
+  
+  header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  /* Hero */
+  .hero {
+    background-color: #f5f5f5;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .hero h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Services */
+  .services {
+    background-color: #f5f5f5;
+    padding: 50px;
+  }
+  
+  .services h2 {
+    margin-bottom: 20px;
+  }
+  
+  .services .service {
+    margin-bottom: 30px;
+  }
+  
+  /* Portfolio */
+  .portfolio {
+    background-color: #f5f5f5;
+    padding: 50px;
+  }
+  
+  .portfolio h2 {
+    margin-bottom: 20px;
+  }
+  
+  .portfolio .project {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  
+  .portfolio .project img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #3f51b5;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
